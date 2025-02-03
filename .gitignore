@@ -1,52 +1,112 @@
-# Prerequisites
-*.d
-
-# Object files
+# C/C++ files
 *.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
 *.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
 *.so
-*.so.*
-*.dylib
-
-# Executables
 *.exe
 *.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
+*.obj
+*.dll
+*.lib
+*.exe
 *.dSYM/
-*.su
-*.idb
-*.pdb
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+CTestTestfile.cmake
+
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pdb
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.egg-info/
+dist/
+build/
+*.egg
+*.venv/
+*.virtualenv/
+env/
+venv/
+*.tox/
+*.coverage
+nosetests.xml
+coverage.xml
+*.hypothesis/
+*.pytest_cache/
+
+# IDE/Editor-specific files
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+*.editorconfig
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environment directories
+*.env/
+*.venv/
+env/
+venv/
+
+# Test files and directories
+*.test
+*.unittest
+*.coverage
+*.hypothesis/
+
+# Logs and other temporary files
+*.log
+*.swp
+*.bak
+*.tmp
+*.pid
+*.seed
+
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# MacOS files
+.AppleDouble
+.LSOverride
+
+# Windows files
+Thumbs.db
+Desktop.ini
+
+# PyInstaller (Python packaging tool)
+*.manifest
+*.spec
+
+# Python wheels and egg distributions
+*.whl
+*.egg
+
+# Backup files
+*~
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# File system trash (desktop environments, etc)
+.Trash-*
+
+# Coverage files
+*.coverage
+*.hypothesis/
+*.pytest_cache/
+*.zip
+*.rar
