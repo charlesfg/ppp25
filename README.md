@@ -1,14 +1,12 @@
 # 
 
-Professor: Charles
-
-Repositório da Disciplinas TP6/TP7 de PPP
-
 
 
 # 🚀 PPP 2025 - Programação em C - Materiais e Recursos
 
 Bem-vindo ao repositório da disciplina de **PPP 2025 - Prof. Charles**! Aqui você encontrará materiais de apoio, exemplos de código, exercícios e links úteis para auxiliar no seu aprendizado.
+
+> **Alias**:  [`https://bit.ly/ppprepo2025`](https://bit.ly/ppprepo2025)
 
 ## 📌 Estrutura do Repositório
 
