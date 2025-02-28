@@ -28,7 +28,7 @@ Aqui você encontra os links para os slides utilizados em cada aula. As aulas ac
 ## 📅 Semana 4
 
 - **Aula 1**: [Estruturas](https://docs.google.com/presentation/d/e/2PACX-1vTqyyuXvBGeCJheWNnKaui1sUJdwNp6NgYMNpAJWLODYTMp6ZcGQmYMLuoQUHeSsLHTEpoJsAvRd1f_/pub?start=false&loop=false&delayms=3000)
-- **Aula 2**: _[Em breve]_
+- **Aula 2**: [Ponteiros](https://docs.google.com/presentation/d/e/2PACX-1vTjkMBYgWs-sFwIfQJDh2MX_2AbWYNr_nYqCRxtToWfy6N1hsHI9mRDtFXom0zdlg/pub?start=false&loop=false&delayms=3000)
 
 ---
 
