@@ -200,8 +200,8 @@ Para depurar um programa C no VSCode, siga os passos abaixo:
 ## **Executando o Programa em um Terminal Separado**
    - Para permitir a leitura de entrada (`STDIN`), configure `"externalConsole": true` no `launch.json`.
 
-    > [!TIP]
-    > Só é necessário ativar o `"externalConsole": true` caso o programa em questão necessite ler informações do usuário diretamente do terminal
+ > [!TIP]
+ > Só é necessário ativar o `"externalConsole": true` caso o programa em questão necessite ler informações do usuário diretamente do terminal
 
 
 
