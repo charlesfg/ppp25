@@ -84,7 +84,6 @@ O `launch.json` define as configurações de depuração, incluindo o programa a
 O `task.json` configura tarefas automatizadas no VSCode, como a **compilação do código**, execução de scripts e outras ações repetitivas. Ele permite definir comandos personalizados que podem ser integrados ao fluxo de trabalho do desenvolvedor, eliminando a necessidade de compilar manualmente antes de rodar o depurador.
 
 
-
 #### **Parâmetros Importantes do `task.json`**
 - `"type"`: Define o tipo de tarefa (para C/C++, usa-se `"cppbuild"`).
 - `"label"`: Nome da tarefa, usado para ser referenciado no `launch.json`.
