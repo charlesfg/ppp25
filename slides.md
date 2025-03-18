@@ -50,6 +50,13 @@ Aqui você encontra os links para os slides utilizados em cada aula. As aulas ac
 - **Aula 2**: [Parâmetros de Ponteiros e Header Files](https://docs.google.com/presentation/d/e/2PACX-1vQQ6GWmfwUZ1bRHrWwV_V-8VfYa8s5NOVW39CcJMM8BUa6Xu-t68P1D9xQsGWqtPw/pub?start=false&loop=false&delayms=3000)
 
 
+## 📅 Semana 8
+
+- **Aula 1**: [Filas ](https://docs.google.com/presentation/d/e/2PACX-1vS34sInSReVr61BBJZu6frlHSpegnZFoX36xIX9YrB0zdzBguSm7ale1AiwPr8ny6x9QqEQ8B6NHYDw/pub?start=false&loop=false&delayms=3000)
+
+
+
+
 
 ## 📅 Template para Novas Semanas
 
