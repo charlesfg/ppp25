@@ -5,6 +5,9 @@
 #include <ctype.h>
 #include "fila.h"
 
+// Como compilar
+// gcc -Wall -Werror -g -O0 -DTYPE=double 1111.c fila.c -o 1111
+//
 int main()
 {
 

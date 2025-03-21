@@ -2,6 +2,28 @@
 #include <stdio.h>
 #include <time.h>
 
+int **gera_matriz(int m, int n)
+{
+
+    int **matriz;
+
+    matriz = (int **)malloc(m * sizeof(int *));
+
+    for (int i = 0; i < m; i++)
+    {
+        matriz[i] = (int *)malloc(n * sizeof(int));
+    }
+
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            matriz[i][j] = rand() % 1000;
+        }
+    }
+
+    return matriz;
+}
 int *gera_vetor(int n)
 {
     int *vec = (int *)malloc(n * sizeof(int));
