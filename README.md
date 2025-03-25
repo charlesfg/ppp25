@@ -37,6 +37,7 @@ Aprimore suas habilidades participando dos projetos disponíveis em [`/projetos`
 - [The C Programming Language - K&R](https://www.amazon.com.br/C-Programming-Language-2nd/dp/0131103628)  
 - [cppreference.com - C Language Reference](https://en.cppreference.com/w/c)  
 - [Plataforma para aprendizado de C  - Exercism](https://exercism.org/tracks/c/exercises)  
+- [Referência Rápida para funções](https://devdocs.io/c/)
 
 
 🔗 **Plataforma para aprendizado C:**  
