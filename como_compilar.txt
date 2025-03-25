@@ -1,0 +1,1 @@
+gcc -Wall -Werror -g -O0 teste_pilha.c -o teste_pilha pilha_template.c

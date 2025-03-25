@@ -68,8 +68,20 @@ void testeDestruicao()
     push(p, 1);
     push(p, 2);
     push(p, 3);
+    if (pilhaVazia(p))
+    {
+        printf("-> ERRO: Inserção não funciona, não há como testar.\n");
+    }
     destroiPilha(p);
-    printf("-> OK: Pilha destruída (verificar se não houve vazamento de memória com valgrind).\n\n");
+
+    if (!pilhaVazia(p))
+    {
+        printf("-> ERRO: Pilha não foi destruida corretamente.\n");
+    }
+    else
+    {
+        printf("-> OK: Pilha destruída (verificar se não houve vazamento de memória com valgrind).\n\n");
+    }
 }
 
 void testeComMaisElementos()

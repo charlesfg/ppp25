@@ -57,7 +57,7 @@ Aqui você encontra os links para os slides utilizados em cada aula. As aulas ac
 
 ## 📅 Semana 9
 
-- **Aula 1**: [Pilha ] (https://docs.google.com/presentation/d/e/2PACX-1vQ7zzKAZL5vBPZUFfkZ3Evof1eGHfR7O1SVClUEwsKj_6S9LvGECYg0_lRKz8ZhLJxQ1CnOxCpmgims/pub?start=false&loop=false&delayms=3000)
+- **Aula 1**: [Pilhas](https://docs.google.com/presentation/d/e/2PACX-1vQ7zzKAZL5vBPZUFfkZ3Evof1eGHfR7O1SVClUEwsKj_6S9LvGECYg0_lRKz8ZhLJxQ1CnOxCpmgims/pub?start=false&loop=false&delayms=3000)
 
 
 ## 📅 Template para Novas Semanas
