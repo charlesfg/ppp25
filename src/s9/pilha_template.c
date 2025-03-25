@@ -1,13 +1,12 @@
 #include <stdlib.h>
-#include <stdbool.h>
-#include "stack.h"
+#include "pilha.h"
 
 pilha_t *criaPilha()
 {
     // Implementar
 }
 
-bool pilhaVazia(pilha_t *pilha)
+int pilhaVazia(pilha_t *pilha)
 {
     // Implementar
 }
