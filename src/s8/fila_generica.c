@@ -38,6 +38,8 @@ TYPE remover(Fila *fila)
     {
 #ifdef TYPE_IS_STRING
         return NULL;
+#elif defined(TYPE_IS_STRUCT)
+        return (TYPE){0};
 #else
         return (TYPE)0;
 #endif
@@ -69,6 +71,9 @@ void mostrarFila(Fila *fila)
         printf("%lf\n", atual->valor);
 #elif defined(TYPE_IS_CHAR)
         printf("%c\n", atual->valor);
+#elif defined(TYPE_IS_DATE)
+        Data d = atual->valor;
+        printf("%d/%d/%d\n", d.dia, d.dia, d.ano);
 #else
         printf("Valor genérico\n");
 #endif

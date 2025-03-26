@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "data.h"
 
 // Define o `valor` da fila como uma string
 #ifndef TYPE
@@ -16,6 +17,10 @@
 // Verifica se TYPE foi definido
 #ifndef TYPE
 #error "Você deve definir o tipo TYPE antes de incluir este arquivo. Ex: #define TYPE int"
+#endif
+
+#ifdef TYPE_IS_DATE
+#define TYPE_IS_STRUCT
 #endif
 
 // Estrutura de nó genérica
