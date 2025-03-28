@@ -24,7 +24,7 @@ int vazia(Fila *fila)
 }
 
 // Função para inserir um elemento na fila
-void inserir(Fila *fila, TYPE valor)
+void inserir(Fila *fila, double valor)
 {
     item *novo = (item *)malloc(sizeof(item));
     novo->valor = valor;
