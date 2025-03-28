@@ -76,10 +76,9 @@ MAKEFILES := $(foreach dir, $(SUBDIRS), $(wildcard $(dir)Makefile))
 # -------------------------------------------------------------
 
 # Alvo padrão: compilar todos os programas da pasta s9
-.PHONY: all  $(SUBDIRS) cleanbin clean
+.PHONY: all  $(SUBDIRS) cleanbin clean $(MAKE_DIRS)
 
 all: $(MAKE_DIRS)
-	$(MAKE) -C $(MAKE_DIRS) all
 
 
 
@@ -91,9 +90,9 @@ clean:
 		$(MAKE) -C $$dir/ clean; \
 	done
 
-$(SUBDIRS):
+$(MAKE_DIRS):
 	@echo "Building in $@"
-	$(MAKE) -C $@/Makefile
+	$(MAKE) -C $@
 
 
 cleanrepo: cleanbin
