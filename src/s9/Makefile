@@ -4,7 +4,7 @@
 # --------------------------------------------
 
 # Importa variáveis do Makefile principal
-include ../Makefile
+include ../common.mk
 
 # Arquivos fonte e binários
 SRC = 1211_v1.c 1211_v2.c
