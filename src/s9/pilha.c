@@ -1,6 +1,21 @@
 #include <stdlib.h>
 #include <stdbool.h>
-#include "pilha.h"
+
+
+typedef int item_t;
+
+typedef struct noPilha
+{
+    // Tipo de Dados da pilha
+    item_t item;
+    struct noPilha *next;
+} no_t;
+
+typedef struct
+{
+    no_t *topo;
+
+} pilha_t;
 
 pilha_t *criaPilha()
 {

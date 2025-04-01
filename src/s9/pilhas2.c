@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
-#define MAX_STR 51
 #define MAX_NAME 100
 
 struct person {
@@ -73,40 +71,40 @@ void print_stack(struct stack_node *p) {
   }
 }
 
-int main() {
-  struct stack_node *pilha;
-  init(&pilha);
+int main(void) {
+  struct person ps[] = {
+      {"Raquel", 21}, {"Leonardo", 19}, {"Andre", 40}, {"Sandra", 38}};
+  struct stack_node *pstack;
 
-  char entrada[MAX_STR];
-  printf("Digite strings (\"fim\" para parar):\n");
-
-  while (1) {
-    printf("-> ");
-    fgets(entrada, MAX_STR, stdin);
-    entrada[strcspn(entrada, "\n")] = '\0';  // Remove '\n'
-
-    if (strcmp(entrada, "fim") == 0) break;
-
+  init(&pstack);
+  for (unsigned int i = 0; i < sizeof(ps) / sizeof(ps[0]); i++) {
     struct person *p = malloc(sizeof(struct person));
-    if (!p) {
-      fprintf(stderr, "Erro de alocação!\n");
-      break;
+    if (p == NULL) {
+      perror("Cannot allocate person");
+      return 1;
     }
-    strncpy(p->name, entrada, MAX_NAME);
-    p->age = 0;  // não usamos
-
-    if (!push(&pilha, p)) {
-      fprintf(stderr, "Erro ao empilhar!\n");
-      free(p);
+    *p = ps[i];
+    if (!push(&pstack, p)) {
+      perror("Cannot push person to stack");
+      return 1;
     }
   }
 
-  printf("\nStrings na ordem inversa:\n");
-  while (!empty(pilha)) {
-    struct person *p = pop(&pilha);
-    printf("%s\n", p->name);
-    free_person(p);
+  printf("Initial stack:\n");
+  print_stack(pstack);
+
+  printf("\nPop():\n");
+  struct person *pper = pop(&pstack);
+  if (pper != NULL) {
+    print_person(pper);
+    free(pper);
   }
+
+  printf("\nStack Size: %d\n", size(pstack));
+
+  printf("\nAfter clean:\n");
+  clean(&pstack, free_person);
+  print_stack(pstack);
 
   return 0;
 }
