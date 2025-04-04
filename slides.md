@@ -59,6 +59,12 @@ Aqui você encontra os links para os slides utilizados em cada aula. As aulas ac
 
 - **Aula 1**: [Pilhas](https://docs.google.com/presentation/d/e/2PACX-1vQ7zzKAZL5vBPZUFfkZ3Evof1eGHfR7O1SVClUEwsKj_6S9LvGECYg0_lRKz8ZhLJxQ1CnOxCpmgims/pub?start=false&loop=false&delayms=3000)
 
+## 📅 Semana 10
+
+- **Aula 2**: [Listas](https://docs.google.com/presentation/d/e/2PACX-1vTJDxN8YoV8K6OMpp9J_om76Cj01EZkvURC3s-IjB6bfGK8lr6Lu-hS_jzLQtElMrwiHGIyCYA-3FEA/pub?start=false&loop=false&delayms=3000)
+
+
+<!-- 
 
 ## 📅 Template para Novas Semanas
 
@@ -67,3 +73,5 @@ Aqui você encontra os links para os slides utilizados em cada aula. As aulas ac
 
 - **Aula 1**: [Nome do Tema](URL_DO_SLIDE)  
 - **Aula 2**: [Nome do Tema](URL_DO_SLIDE)
+
+-->

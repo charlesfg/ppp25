@@ -65,7 +65,10 @@ Para programar em C, você pode usar um dos seguintes compiladores e IDEs:
 - Clang: [LLVM Clang](https://clang.llvm.org/)  
 
 🖥 **IDEs e Editores:**  
-- [VS Code](https://code.visualstudio.com/) + extensão C/C++  
+- [VS Code](https://code.visualstudio.com/) + extensão C/C++   
+
+🛠 **Utilizando o Makefile para automatizar a compilação:**  
+- [Introdução ao Makefile](introMake.md)
 
 ---
 
