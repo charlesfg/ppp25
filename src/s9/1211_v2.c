@@ -5,7 +5,7 @@
 #define MAX_STR 51
 
 
-typedef char *item_t;
+typedef char *   item_t;
 
 typedef struct noPilha {
   item_t item;

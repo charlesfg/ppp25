@@ -7,7 +7,7 @@
 include ../common.mk
 
 # Arquivos fonte e binários
-SRC = 1311.c
+SRC = 1311.c 1312.c 1313.c 1322.c 1324.c
 BINS = $(SRC:.c=)
 
 # Compilar todos os programas
