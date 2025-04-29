@@ -64,6 +64,12 @@ Aqui você encontra os links para os slides utilizados em cada aula. As aulas ac
 - **Aula 2**: [Listas](https://docs.google.com/presentation/d/e/2PACX-1vTJDxN8YoV8K6OMpp9J_om76Cj01EZkvURC3s-IjB6bfGK8lr6Lu-hS_jzLQtElMrwiHGIyCYA-3FEA/pub?start=false&loop=false&delayms=3000)
 
 
+## 📅 Semana 12
+
+- **Aula 1**: 
+[Ficheiros] (https://docs.google.com/presentation/d/e/2PACX-1vRat-KlpSM3r6ZcyWl53n4trumH5TsG1dB6Se3CMa4tB3Dwj9PNLYPtdmXkloIXonCBjC5v_qlCJk7L/pub?start=false&loop=false&delayms=3000)
+
+
 <!-- 
 
 ## 📅 Template para Novas Semanas
