@@ -67,9 +67,22 @@ Aqui você encontra os links para os slides utilizados em cada aula. As aulas ac
 ## 📅 Semana 12
 
 - **Aula 1**: 
-[Ficheiros] (https://docs.google.com/presentation/d/e/2PACX-1vRat-KlpSM3r6ZcyWl53n4trumH5TsG1dB6Se3CMa4tB3Dwj9PNLYPtdmXkloIXonCBjC5v_qlCJk7L/pub?start=false&loop=false&delayms=3000)
+[Ficheiros](https://docs.google.com/presentation/d/e/2PACX-1vRat-KlpSM3r6ZcyWl53n4trumH5TsG1dB6Se3CMa4tB3Dwj9PNLYPtdmXkloIXonCBjC5v_qlCJk7L/pub?start=false&loop=false&delayms=3000)
 
 
+
+# Ideias de Projetos:
+
+
+
+## Dictionary
+
+ - Follow this tutorial : [Write a hash table in C](https://github.com/jamesroutley/write-a-hash-table?tab=readme-ov-file) 
+
+
+## Text Editor
+
+ - Follow this tutorial : [Build Your Own Text Editor](https://viewsourcecode.org/snaptoken/kilo/)
 <!-- 
 
 ## 📅 Template para Novas Semanas
